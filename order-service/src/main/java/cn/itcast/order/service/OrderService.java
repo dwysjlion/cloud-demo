@@ -42,6 +42,7 @@ public class OrderService {
         System.out.println("333333");
         System.out.println("hot by mf");
         System.out.println("hot test");
+        System.out.println("hot test2");
 
         // 4.返回
         return order;
