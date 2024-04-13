@@ -41,6 +41,7 @@ public class OrderService {
         order.setUser(user);
         System.out.println("333333");
         System.out.println("hot by mf");
+        System.out.println("hot test");
         System.out.println("master test");
 
         // 4.返回
