@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: orderserver
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+#      discovery:
+#        namespace: f92654f7-7370-463a-8045-ef999a9d7d8b
+  profiles:
+    active: dev
