@@ -39,11 +39,6 @@ public class OrderService {
 
         User user = userClient.queryById(userId);
         order.setUser(user);
-        System.out.println("333333");
-        System.out.println("hot by mf");
-        System.out.println("hot test");
-        System.out.println("master test");
-        System.out.println("hot test2");
 
         // 4.返回
         return order;
