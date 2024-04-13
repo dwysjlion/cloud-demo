@@ -39,7 +39,7 @@ public class OrderService {
 
         User user = userClient.queryById(userId);
         order.setUser(user);
-        System.out.println("2222222222");
+        System.out.println("333333");
 
         // 4.返回
         return order;
