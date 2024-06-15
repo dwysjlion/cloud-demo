@@ -26,7 +26,7 @@ public class AuthFilter implements GlobalFilter {
         }
         //拦截
         ServerHttpResponse response = exchange.getResponse();
-        response.setStatusCode(HttpStatus.UNAUTHORIZED);
+        response.setStatusCode(HttpStatus.NOT_ACCEPTABLE);
         return response.setComplete();
     }
 }
